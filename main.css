@@ -16,7 +16,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  overflow: hidden;
 }
 
 .main-container {
@@ -309,6 +308,10 @@ body {
   .cards__calculator-image {
     margin: 44px 0px 0px 73%;
   }
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 /*# sourceMappingURL=main.css.map */
