@@ -1,0 +1,316 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  border: 1px solid rgba(172, 255, 47, 0);
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-weight: 400;
+  font-weight: 200;
+  font-size: 16px;
+  background-color: #FAFAFA;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-container {
+  border: 1px solid rgba(0, 247, 255, 0);
+  width: 88%;
+  margin: 50px 0px 30px 0px;
+  padding: 0px 4px 0px 0px;
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .main-container {
+    align-items: center;
+  }
+}
+
+.titles {
+  border: 1px solid rgba(255, 0, 0, 0);
+  width: 100%;
+  margin: 0px 0px 25px 0px;
+}
+@media (min-width: 768px) {
+  .titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 0px 59px 0px;
+  }
+}
+.titles__reliable {
+  border: 1px solid rgba(25, 0, 255, 0);
+  font-weight: 200;
+  color: hsl(234deg, 12%, 34%);
+  width: 100%;
+  margin: 31px 0px 0px 0px;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .titles__reliable {
+    font-size: 36px;
+    margin: 24px 0px 0px 0px;
+  }
+}
+.titles__powered {
+  border: 1px solid rgba(255, 145, 0, 0);
+  font-weight: 600;
+  color: hsl(234deg, 12%, 34%);
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .titles__powered {
+    font-size: 36px;
+    line-height: 44px;
+    margin: 0px 0px 0px 0px;
+  }
+}
+.titles__artificial {
+  border: 1px solid rgba(204, 0, 255, 0);
+  font-weight: 400;
+  color: hsl(229deg, 6%, 66%);
+  width: 100%;
+  margin: 14px 0px 0px 0px;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .titles__artificial {
+    margin: 18px 0px 0px 0px;
+  }
+}
+@media (min-width: 1024px) {
+  .titles__artificial {
+    width: 60%;
+  }
+}
+@media (min-width: 1440px) {
+  .titles__artificial {
+    width: 45%;
+  }
+}
+
+.cards {
+  border: 1px solid rgba(0, 255, 34, 0);
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+}
+@media (min-width: 768px) {
+  .cards {
+    display: flex;
+    flex-direction: row;
+    width: 92%;
+  }
+}
+.cards__supervisor {
+  border: 1px solid rgba(204, 0, 255, 0);
+  background-color: #FFFFFF;
+  border-radius: 6px;
+  border-top: 4px solid hsl(180deg, 62%, 55%);
+  width: 100%;
+  height: 218px;
+  margin: 47px 0px 23px 0px;
+  box-shadow: 0px 10px 15px hsla(235deg, 12%, 63%, 0.3);
+}
+@media (min-width: 768px) {
+  .cards__supervisor {
+    width: 30%;
+    height: 246px;
+    margin: 150px 26px 23px 20px;
+  }
+}
+.cards__supervisor-title {
+  margin: 22px 0px 0px 30px;
+  font-size: 20px;
+  font-weight: 600;
+  color: hsl(234deg, 12%, 34%);
+}
+@media (min-width: 768px) {
+  .cards__supervisor-title {
+    margin: 26px 0px 0px 30px;
+  }
+}
+.cards__supervisor-text {
+  margin: 5px 30px 0px 30px;
+  font-size: 13px;
+  font-weight: 400;
+  color: hsl(229deg, 6%, 66%);
+}
+@media (min-width: 768px) {
+  .cards__supervisor-text {
+    margin: 11px 30px 0px 30px;
+  }
+}
+.cards__supervisor-image {
+  margin: 36px 0px 0px 73%;
+  width: 57px;
+}
+@media (min-width: 768px) {
+  .cards__supervisor-image {
+    margin: 44px 0px 0px 73%;
+  }
+}
+.cards__column {
+  border: 1px solid rgba(255, 153, 0, 0);
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+}
+@media (min-width: 768px) {
+  .cards__column {
+    width: 30%;
+  }
+}
+.cards__column__team {
+  background-color: #FFFFFF;
+  border-radius: 6px;
+  border-top: 4px solid hsl(0deg, 78%, 62%);
+  width: 100%;
+  height: 218px;
+  margin: 0px 0px 23px 0px;
+  box-shadow: 0px 10px 15px hsla(235deg, 12%, 63%, 0.3);
+}
+@media (min-width: 768px) {
+  .cards__column__team {
+    height: 246px;
+    margin: 0px 0px 30px 0px;
+  }
+}
+.cards__column__team-title {
+  margin: 22px 0px 0px 30px;
+  font-size: 20px;
+  font-weight: 600;
+  color: hsl(234deg, 12%, 34%);
+}
+@media (min-width: 768px) {
+  .cards__column__team-title {
+    margin: 26px 0px 0px 30px;
+  }
+}
+.cards__column__team-text {
+  margin: 5px 30px 0px 30px;
+  font-size: 13px;
+  font-weight: 400;
+  color: hsl(229deg, 6%, 66%);
+}
+@media (min-width: 768px) {
+  .cards__column__team-text {
+    margin: 11px 30px 0px 30px;
+  }
+}
+.cards__column__team-image {
+  margin: 36px 0px 0px 73%;
+  width: 57px;
+}
+@media (min-width: 768px) {
+  .cards__column__team-image {
+    margin: 44px 0px 0px 73%;
+  }
+}
+.cards__column__karma {
+  background-color: #FFFFFF;
+  border-radius: 6px;
+  border-top: 4px solid hsl(34deg, 97%, 64%);
+  width: 100%;
+  height: 218px;
+  margin: 0px 0px 23px 0px;
+  box-shadow: 0px 10px 15px hsla(235deg, 12%, 63%, 0.3);
+}
+@media (min-width: 768px) {
+  .cards__column__karma {
+    height: 246px;
+    margin: 0px 0px 0px 0px;
+  }
+}
+.cards__column__karma-title {
+  margin: 22px 0px 0px 30px;
+  font-size: 20px;
+  font-weight: 600;
+  color: hsl(234deg, 12%, 34%);
+}
+@media (min-width: 768px) {
+  .cards__column__karma-title {
+    margin: 26px 0px 0px 30px;
+  }
+}
+.cards__column__karma-text {
+  margin: 5px 30px 0px 30px;
+  font-size: 13px;
+  font-weight: 400;
+  color: hsl(229deg, 6%, 66%);
+}
+@media (min-width: 768px) {
+  .cards__column__karma-text {
+    margin: 11px 30px 0px 30px;
+  }
+}
+.cards__column__karma-image {
+  margin: 36px 0px 0px 73%;
+  width: 57px;
+}
+@media (min-width: 768px) {
+  .cards__column__karma-image {
+    margin: 44px 0px 0px 73%;
+  }
+}
+.cards__calculator {
+  border: 1px solid rgba(255, 0, 157, 0);
+  background-color: #FFFFFF;
+  border-radius: 6px;
+  border-top: 4px solid hsl(212deg, 86%, 64%);
+  width: 100%;
+  height: 218px;
+  margin: 0px 0px 0px 0px;
+  box-shadow: 0px 10px 15px hsla(235deg, 12%, 63%, 0.3);
+}
+@media (min-width: 768px) {
+  .cards__calculator {
+    width: 30%;
+    height: 246px;
+    margin: 150px 20px 23px 26px;
+  }
+}
+.cards__calculator-title {
+  margin: 22px 0px 0px 30px;
+  font-size: 20px;
+  font-weight: 600;
+  color: hsl(234deg, 12%, 34%);
+}
+@media (min-width: 768px) {
+  .cards__calculator-title {
+    margin: 26px 0px 0px 30px;
+  }
+}
+.cards__calculator-text {
+  margin: 5px 30px 0px 30px;
+  font-size: 13px;
+  font-weight: 400;
+  color: hsl(229deg, 6%, 66%);
+}
+@media (min-width: 768px) {
+  .cards__calculator-text {
+    margin: 11px 30px 0px 30px;
+  }
+}
+.cards__calculator-image {
+  margin: 36px 0px 0px 73%;
+  width: 57px;
+}
+@media (min-width: 768px) {
+  .cards__calculator-image {
+    margin: 44px 0px 0px 73%;
+  }
+}
+
+footer {
+  margin-bottom: 30px;
+}
+
+/*# sourceMappingURL=main.css.map */
