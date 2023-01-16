@@ -16,6 +16,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: hidden;
 }
 
 .main-container {
@@ -29,6 +30,7 @@ body {
 @media (min-width: 768px) {
   .main-container {
     align-items: center;
+    padding: 0px 0px 0px 0px;
   }
 }
 
@@ -307,10 +309,6 @@ body {
   .cards__calculator-image {
     margin: 44px 0px 0px 73%;
   }
-}
-
-footer {
-  margin-bottom: 30px;
 }
 
 /*# sourceMappingURL=main.css.map */
